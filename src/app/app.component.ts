@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-ex04';
+
+  alertar(e: any) {
+    console.log('Pacote Comprado')
+    console.log(e)
+  }
 }
